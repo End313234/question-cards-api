@@ -11,5 +11,3 @@ type Quiz struct {
 	CreatedAt string     `json:"created_at"`
 	EditedAt  string     `json:"edited_at"`
 }
-
-type Quizzes = []Quiz

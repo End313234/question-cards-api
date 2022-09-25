@@ -28,6 +28,8 @@ func MakeRequest(method string, url string, body []byte) []byte {
 		panic(err)
 	}
 
+	fmt.Println(string(responseBody))
+
 	return responseBody
 }
 
